@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main()
+{
+int x,y,n=1,i;
+clrscr();
+printf("enter base");
+scanf("%d",&x);
+for(i=1;i<=y;i++)
+{
+n=n*x;
+}
+printf("result of x^y=%d^%d=%d",x,y,n);
+getch();
+}
